@@ -1,0 +1,7 @@
+testcases\BaseClass.class
+testcases\TC_AddNewCustomer_02.class
+pageobjectmodel\LoginPage.class
+utilities\Reporting.class
+pageobjectmodel\AddCustomerPage.class
+testcases\TC_LoginPage_01.class
+utilities\ReadConfig.class
