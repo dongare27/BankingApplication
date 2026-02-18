@@ -6,8 +6,6 @@ import pageobjectmodel.LoginPage;
 public class TC_LoginPage_01 extends BaseClass
 {
 
-
-
 	@Test
 	public void loginPage() throws InterruptedException {
 		

@@ -21,7 +21,7 @@ public class LoginPage{
     public void setuserName(String uname)
     {
         txtUserName.sendKeys(uname);
-        
+    
     }
     public void setPassword(String password)
     {

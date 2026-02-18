@@ -14,7 +14,7 @@ public class BaseClass {
     
 	ReadConfig config=new ReadConfig();
 	public String baseURL=config.getApplicationURL();
-    public String username=config.getUserName();
+	public String username=config.getUserName();
     public String password=config.getPassword();
     public static WebDriver driver;
     public static Logger logger=LogManager.getLogger("BaseClass");
@@ -25,7 +25,6 @@ public class BaseClass {
     WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     driver.manage().window().maximize();
-   
     driver.get(baseURL);
     logger.info("Application URL is Launched");
     
