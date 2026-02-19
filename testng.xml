@@ -6,8 +6,8 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
-    <!--  <class name="testcases.TC_LoginPage_01"/>--> 
-    <class name="testcases.TC_AddNewCustomer_02"/>
+    <class name="testcases.TC_LoginPage_01"/>
+    <!--  <class name="testcases.TC_AddNewCustomer_02"/>--> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
